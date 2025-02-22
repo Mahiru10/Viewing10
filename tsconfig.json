@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "checkJs": false,
+    "jsx": "preserve"
+  },
+  "include": ["src/**/*"],
+  "exclude": [
+    "node_modules",
+    "src/boot/i18n.js",
+    "src/boot/axios.js",
+    "src/i18n/en-US/index.js", // Exclude specific files
+    "src/i18n/index.js", // Exclude specific files
+    "src/router/index.js", // Exclude specific files
+    "src/router/routes.js", // Exclude specific files
+    "src/stores/LoginStore.js", // Exclude specific files
+    "src/stores/example-store.js", // Exclude specific files
+    "src/stores/index.js" // Exclude specific files
+  ]
+}
